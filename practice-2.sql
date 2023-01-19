@@ -2,7 +2,7 @@
 
 SELECT listings.URL, listings.accommodates
 FROM listings
-WHERE accommodates > 9
+WHERE accommodates > 15
 ORDER BY accommodates DESC
 LIMIT 15;  
 

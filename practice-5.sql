@@ -2,6 +2,7 @@
 
 SELECT listings.property_type, COUNT(listings.id)
 FROM listings
+WHERE property_type = 'Hyde Park'
 GROUP BY property_type;
 
 -- +-------------------------------------+----------+
