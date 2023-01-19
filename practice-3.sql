@@ -1,4 +1,7 @@
 -- What are all the neighborhoods?
+SELECT listings.neighborhood
+FROM listings
+GROUP BY neighborhood
 
 -- +------------------------+
 -- | Albany Park            |
