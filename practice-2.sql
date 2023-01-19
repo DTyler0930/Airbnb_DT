@@ -4,7 +4,7 @@ SELECT listings.URL, listings.accommodates
 FROM listings
 WHERE accommodates > 9
 ORDER BY accommodates DESC
-LIMIT 15;
+LIMIT 15;  
 
 -- +---------------------------------------+--------------+
 -- | https://www.airbnb.com/rooms/1321332  | 16           |
